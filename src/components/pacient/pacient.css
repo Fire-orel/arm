@@ -1,0 +1,20 @@
+.poisk{
+    background-color: #FFFFFF;
+    margin-left: 20%;
+    
+    padding-left: 55px;
+}
+
+.poiska{
+    display: inline-block;
+    font-size: 20px;
+    margin: 50px;
+    
+}
+.in{
+    padding-left: 100px;
+    
+}
+.btn{
+    margin-top: 9px;
+}
