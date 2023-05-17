@@ -4,15 +4,23 @@
     padding-left: 55px;
 }
 .upravlenia{
+    display: flex;
     font-size: 20px;
 }
 .poiska{
-    display: inline-block;
+    display: inline-flex;
+    
     font-size: 20px;
     margin: 5px;
+    width: 100vh;
+    
+} 
+input.poiska{
+    width: 99%;
 }
 .poisk{
+    
     background-color: #FFFFFF;
-    margin-left: 20%;
-    width: 60%;
-}
+    margin-left: 10%;
+     width: 60%; 
+} 

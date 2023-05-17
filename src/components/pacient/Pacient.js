@@ -1,37 +1,42 @@
 import React from "react";
 import styles from "./pacient.css"
+import { Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
+
 export default function Pacient() {
     return (
+        <Nav>
         <div className="pola p-3 mb-1 bg-secondary">
-            <button>Назад</button>
+            <Nav.Link as={Link} to="/"className="text-black">Назад</Nav.Link>
+            {/* <button>Назад</button> */}
             <div className="">
-                <div className="familia poiska in">Фамилия</div>
+                <div className="familia poiskaa in">Фамилия</div>
                 <input type={Text} className="poiskai in"></input>
-                <div className="name poiska">Имя</div>
+                <div className="name poiskaa">Имя</div>
                 <input type={Text} className="poiskai in"></input>
-                <div className="otchestvo poiska in">Отчество</div>
+                <div className="otchestvo poiskaa in">Отчество</div>
                 <input type={Text} className="poiskai in"></input>
             </div>
             <div className="">
-                <div className="SNILS poiska in">СНИЛЛС</div>
+                <div className="SNILS poiskaa in">СНИЛЛС</div>
                 <input type={Text} className="poiskai in"></input>
-                <div className="INN poiska in">ИНН</div>
+                <div className="INN poiskaa in">ИНН</div>
                 <input type={Text} className="poiskai in"></input>
-                <div className="pasport poiska in">Паспорт</div>
+                <div className="pasport poiskaa in">Паспорт</div>
                 <input type={Text} className="poiskai in"></input>
             </div>
             <div>
-                <div className="date poiska in">Дата приёма</div>
+                <div className="date poiskaa in">Дата приёма</div>
                 <input type={Text} className="poiskai in"></input>
-                <div className="Type poiska in">Тип приёма (повторный или первичный)</div>
+                <div className="Type poiskaa in">Тип приёма (повторный или первичный)</div>
                 <input type={Text} className="poiskai in"></input>
             </div>
             <div>
-                <div className="jalobi poiska in">Жалобы</div>
+                <div className="jalobi poiskaa in">Жалобы</div>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <div>
-                <div className="lechenie poiska in">Лечение</div>
+                <div className="lechenie poiskaa in">Лечение</div>
                 {/* <input type={Text} className="poiskai in"></input> */}
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 
@@ -42,6 +47,6 @@ export default function Pacient() {
 
 
         </div>
-
+        </Nav>
     )
 }

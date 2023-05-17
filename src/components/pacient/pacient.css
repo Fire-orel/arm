@@ -1,16 +1,17 @@
-.poisk{
+/* .poisk{
     background-color: #FFFFFF;
     margin-left: 20%;
     
-    padding-left: 55px;
-}
+     padding-left: 55px; 
+} */
 
-.poiska{
+ .poiskaa{
     display: inline-block;
     font-size: 20px;
-    margin: 50px;
+    margin: 5px;
+    min-height: 100%;
     
-}
+} 
 .in{
     padding-left: 100px;
     
