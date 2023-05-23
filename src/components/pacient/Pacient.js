@@ -7,8 +7,9 @@ export default function Pacient() {
     return (
         <Nav>
         <div className="pola p-3 mb-1 bg-secondary">
-            <Nav.Link as={Link} to="/"className="text-black">Назад</Nav.Link>
+            <Nav.Link as={Link} to="/"className="text-black nazad">Назад</Nav.Link>
             {/* <button>Назад</button> */}
+            <div className="polana">
             <div className="">
                 <div className="familia poiskaa in">Фамилия</div>
                 <input type={Text} className="poiskai in"></input>
@@ -27,7 +28,7 @@ export default function Pacient() {
             </div>
             <div>
                 <div className="date poiskaa in">Дата приёма</div>
-                <input type={Text} className="poiskai in"></input>
+                <input type={Text} className="poiskai in "></input>
                 <div className="Type poiskaa in">Тип приёма (повторный или первичный)</div>
                 <input type={Text} className="poiskai in"></input>
             </div>
@@ -44,7 +45,7 @@ export default function Pacient() {
             <div className="btn d-grid gap-2 d-md-flex justify-content-md-end">
                 <button className="float-sm-right">Сохранить</button>
             </div>
-
+            </div>
 
         </div>
         </Nav>

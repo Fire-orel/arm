@@ -26,7 +26,7 @@ export default function Bar() {
                 <input type={Text} className="poiska"></input>
                 <div className="otchestvo poiska">Отчество</div>
                 <input type={Text} className="poiska"></input>
-                <Nav.Link as={Link} to="/pacient" className="text-black poiska text-uppercase">Поиск</Nav.Link>
+                <Nav.Link as={Link} to="/pacient" className="text-black poiska poiskp text-uppercase">Поиск</Nav.Link>
                 {/* <button className="poiska">Поиск</button> */}
             </div>
             
