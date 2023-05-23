@@ -5,17 +5,22 @@
      padding-left: 55px; 
 } */
 
- .poiskaa{
+.poiskaa{
     display: inline-block;
     font-size: 20px;
     margin: 5px;
     min-height: 100%;
     
 } 
+/*
 .in{
     padding-left: 100px;
     
 }
 .btn{
     margin-top: 9px;
+} */
+
+.pola{
+    width: 220vh;
 }
